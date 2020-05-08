@@ -11,7 +11,6 @@
 }
 a {
   text-decoration     : none;
-  color: white;
 }
 
 a:visited {
@@ -202,11 +201,13 @@ a:hover
   top                 : 394px;
   transform           : rotate(0deg);
   width               : auto;
-  transition: background-color 2s ease;
+  transition: background-color 1s ease;
 }
 .portfolio .case-study-2-cta-TUabxV:hover {
   background-color: white;
-
+}
+.portfolio .case-study-2-cta-TUabxV:hover p{
+  color: #45484B;
 }
 .portfolio .group-5-nuHAmH {
   align-items         : center;
@@ -265,37 +266,6 @@ a:hover
   top                 : 576px;
   transform           : rotate(0deg);
   width               : auto;
-  transition:  background-color 2s ease;
-}
-.portfolio .case-study-3-cta-SWYDia:hover {
-  align-items         : flex-start;
-  background-color    : white;
-  box-sizing          : border-box;
-  display             : inline-flex;
-  flex-direction      : row;
-  height              : 43px;
-  justify-content     : flex-start;
-  left                : 98px;
-  position            : absolute;
-  top                 : 576px;
-  transform           : rotate(0deg);
-  width               : auto;
-
-}
-}
-.portfolio .case-study-3-cta-SWYDia:hover {
-  align-items         : flex-start;
-  background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : inline-flex;
-  flex-direction      : row;
-  height              : 43px;
-  justify-content     : flex-start;
-  left                : 98px;
-  position            : absolute;
-  top                 : 576px;
-  transform           : rotate(0deg);
-  width               : auto;
 }
 .portfolio .group-6-0WLsxH {
   align-items         : center;
@@ -314,6 +284,13 @@ a:hover
   position            : relative;
   transform           : rotate(0deg);
   width               : auto;
+  transition: background-color 1s ease;
+}
+.portfolio .group-6-0WLsxH:hover {
+  background-color: white;
+}
+.portfolio .group-6-0WLsxH:hover p {
+  color: black;
 }
 .portfolio .view-case-study-Dwitxu {
   background-color    : rgba(255,255,255,0);
@@ -331,9 +308,6 @@ a:hover
   text-align          : left;
   transform           : rotate(0deg);
   width               : 187px;
-}
-.portfolio .view-case-study-Dwitxu:hover a{
-  color: black;
 }
 .portfolio .group-SHpdVl {
   align-items         : center;
@@ -369,7 +343,7 @@ a:hover
   transform           : rotate(0deg);
   width               : 121px;
 }
-.portfolio .about-zYScWx a {
+.portfolio .about-zYScWx {
   background-color    : rgba(255,255,255,0);
   color               : rgba(229,226,226,1.0);
   flex-shrink         : 0;
@@ -386,7 +360,6 @@ a:hover
   text-align          : center;
   transform           : rotate(0deg);
   width               : 83px;
-  color: white;
 }
 .portfolio .github-xhlEoi {
   background-color    : rgba(255,255,255,0);
@@ -2062,9 +2035,6 @@ a:hover
 }
 .anima-flexbox-container a {
   line-height         : 0;
-}
-.anima-flexbox-container a:hover {
-  color: #45484B;
 }
 .anima-full-width-a {
   width               : 100%;

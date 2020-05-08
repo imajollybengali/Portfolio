@@ -1,10 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here:400|Fjalla+One:400|Biryani:700,400|Paprika:400');
+@import url('https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here:400|Biryani:700,400|Fjalla+One:400');
 
-@font-face {
-                          font-family: "Biryani-Black";
-                          src: url('../fonts/Biryani-Black.ttf') format("truetype");
-                        }
-                        
+
 /* ANIMA screen - winkelcasestudy */
 .font-class-1 {
   font-family         : Biryani, Helvetica, Arial, serif;
@@ -22,81 +18,10 @@
   letter-spacing      : 6.89px;
   line-height         : 106.0px;
 }
-.font-class-3 {
-  font-family         : Biryani, Helvetica, Arial, serif;
-  font-size           : 36.0px;
-  font-style          : normal;
-  font-weight         : 700;
-  letter-spacing      : 4.14px;
-  line-height         : 64.0px;
-}
-.font-class-4 {
-  font-family         : Biryani, Helvetica, Arial, serif;
-  font-size           : 18.0px;
-  font-style          : normal;
-  font-weight         : 400;
-  letter-spacing      : 2.07px;
-  line-height         : 32.0px;
-}
-.font-class-5 {
-  color               : var(--auto-palette-color-1);
-  font-family         : Biryani, Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  font-style          : normal;
-  font-weight         : 400;
-  letter-spacing      : 1.84px;
-  line-height         : 28.0px;
-}
-.font-class-6 {
-  font-family         : Fjalla One, Helvetica, Arial, serif;
-  font-size           : 208.1px;
-  font-style          : normal;
-  font-weight         : 400;
-  line-height         : 262.0px;
-}
-.font-class-7 {
-  font-family         : Biryani, Helvetica, Arial, serif;
-  font-size           : 96.0px;
-  font-style          : normal;
-  font-weight         : 400;
-  letter-spacing      : 11.03px;
-  line-height         : 169.0px;
-}
 :root {
   --auto-palette-color-1: rgba(255,255,255,1.0);
-  --auto-palette-color-10: rgba(215,215,215,1.0);
-  --auto-palette-color-2: rgba(97,97,97,1.0);
-  --auto-palette-color-3: rgba(97,94,94,1.0);
-  --auto-palette-color-4: rgba(245,115,57,1.0);
-  --auto-palette-color-5: rgba(229,226,226,1.0);
-  --auto-palette-color-6: rgba(97,95,95,1.0);
-  --auto-palette-color-7: rgba(121,192,244,1.0);
-  --auto-palette-color-8: rgba(42,40,40,1.0);
-  --auto-palette-color-9: rgba(150,150,150,1.0);
-}
-.winkelcasestudy .auto-flex5-D25i3x {
-  align-items         : flex-start;
-  background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : flex;
-  flex-direction      : column;
-  flex-shrink         : 0;
-  height              : auto;
-  justify-content     : flex-start;
-  position            : relative;
-  width               : 178px;
-}
-.winkelcasestudy .auto-flex-sC0Bqd {
-  align-items         : flex-start;
-  background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : flex;
-  flex-direction      : column;
-  flex-shrink         : 0;
-  height              : auto;
-  justify-content     : flex-start;
-  position            : relative;
-  width               : 3px;
+  --auto-palette-color-2: rgba(97,94,94,1.0);
+  --auto-palette-color-3: rgba(70,69,69,1.0);
 }
 .winkelcasestudy .auto-flex-yKk9k8 {
   align-items         : flex-start;
@@ -119,6 +44,18 @@
   margin-top          : 80px;
   position            : relative;
   width               : 1443px;
+}
+.winkelcasestudy .auto-flex-sC0Bqd {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  flex-shrink         : 0;
+  height              : auto;
+  justify-content     : flex-start;
+  position            : relative;
+  width               : 3px;
 }
 .winkelcasestudy .overlap-group1-u4BaOU {
   background-color    : rgba(255,255,255,0);
@@ -173,9 +110,10 @@
   flex-shrink         : 0;
   height              : auto;
   justify-content     : flex-start;
-  margin-left         : 2px;
+  margin-left         : 1px;
+  margin-top          : 1.0px;
   position            : relative;
-  width               : 7px;
+  width               : 6px;
 }
 .winkelcasestudy .auto-flex1-umM5u0 {
   align-items         : flex-start;
@@ -229,6 +167,18 @@
   position            : relative;
   width               : 178px;
 }
+.winkelcasestudy .auto-flex5-D25i3x {
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0);
+  box-sizing          : border-box;
+  display             : flex;
+  flex-direction      : column;
+  flex-shrink         : 0;
+  height              : auto;
+  justify-content     : flex-start;
+  position            : relative;
+  width               : 178px;
+}
 .winkelcasestudy .splash-screen-NSBS95 {
   background-color    : rgba(255,255,255,0);
   flex-shrink         : 0;
@@ -239,7 +189,7 @@
 }
 .winkelcasestudy .final-screens-ESRHpl {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--auto-palette-color-2);
   flex-shrink         : 0;
   height              : auto;
   margin-left         : 63.0px;
@@ -260,38 +210,24 @@
   transform           : rotate(0deg);
   width               : 1920px;
 }
-.winkelcasestudy .group-4-1fnIxt {
-  align-items         : flex-start;
-  background-color    : rgba(255,255,255,0);
-  box-sizing          : border-box;
-  display             : inline-flex;
-  flex-direction      : row;
-  height              : 106px;
-  justify-content     : flex-start;
-  left                : 288px;
-  position            : absolute;
-  top                 : 487px;
-  transform           : rotate(0deg);
-  width               : auto;
-}
-.winkelcasestudy .arrows-copy-2-XjXiw0 {
+.winkelcasestudy .arrows-copy-2-1WueTu {
   align-items         : center;
   background-color    : rgba(255,255,255,0);
   box-sizing          : border-box;
   display             : inline-flex;
   flex-direction      : row;
-  flex-shrink         : 0;
   height              : 106px;
   justify-content     : flex-end;
-  margin-left         : 1067px;
+  left                : 1461px;
   min-width           : 106px;
   opacity             : 0.5;
   padding             : 0 33.0px;
-  position            : relative;
+  position            : absolute;
+  top                 : 487px;
   transform           : rotate(0deg);
   width               : auto;
 }
-.winkelcasestudy .path-pmmA6Y {
+.winkelcasestudy .path-OzQi9I {
   background-color    : rgba(255,255,255,0);
   flex-shrink         : 0;
   height              : 66px;
@@ -299,19 +235,20 @@
   transform           : rotate(0deg);
   width               : 33px;
 }
-.winkelcasestudy .arrows-copy-3-3iSB1W {
+.winkelcasestudy .arrows-copy-3-7sfdXI {
   background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
   height              : 106px;
+  left                : 288px;
   opacity             : 0.5;
-  position            : relative;
+  position            : absolute;
+  top                 : 487px;
   transform           : rotate(0deg);
   width               : 106px;
 }
 .winkelcasestudy .link-to-full-prototy-HAxT1P {
   align-self          : center;
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--auto-palette-color-2);
   flex-shrink         : 0;
   height              : auto;
   margin-left         : 73.14px;
@@ -330,28 +267,6 @@
   color               : rgba(20,33,238,1.0);
   letter-spacing      : 0.00px;
   text-decoration     : underline;
-}
-.winkelcasestudy .portfolio-kGrX89 {
-  background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-5);
-  height              : auto;
-  left                : 1071px;
-  position            : absolute;
-  text-align          : center;
-  top                 : 73px;
-  transform           : rotate(0deg);
-  width               : 121px;
-}
-.winkelcasestudy .about-8w3zvc {
-  background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-5);
-  height              : auto;
-  left                : 1238px;
-  position            : absolute;
-  text-align          : center;
-  top                 : 73px;
-  transform           : rotate(0deg);
-  width               : 83px;
 }
 .winkelcasestudy .group-aNbWY8 {
   align-items         : center;
@@ -456,24 +371,69 @@
   transform           : rotate(0deg);
   width               : 12px;
 }
+.winkelcasestudy .portfolio-kGrX89 {
+  background-color    : rgba(255,255,255,0);
+  color               : rgba(229,226,226,1.0);
+  font-family         : Biryani, Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  height              : auto;
+  left                : 1012px;
+  letter-spacing      : 2.07px;
+  line-height         : 32.0px;
+  position            : absolute;
+  text-align          : center;
+  top                 : 73px;
+  transform           : rotate(0deg);
+  width               : 121px;
+}
+.winkelcasestudy .about-8w3zvc {
+  background-color    : rgba(255,255,255,0);
+  color               : rgba(229,226,226,1.0);
+  font-family         : Biryani, Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  height              : auto;
+  left                : 1162px;
+  letter-spacing      : 2.07px;
+  line-height         : 32.0px;
+  position            : absolute;
+  text-align          : center;
+  top                 : 73px;
+  transform           : rotate(0deg);
+  width               : 83px;
+}
+.winkelcasestudy .github-Zvnsqx {
+  background-color    : rgba(255,255,255,0);
+  height              : 19px;
+  left                : 1275px;
+  position            : absolute;
+  top                 : 79px;
+  transform           : rotate(0deg);
+  width               : 19px;
+}
 .winkelcasestudy .linkedin-TTrhtA {
   align-items         : flex-end;
   background-color    : rgba(255,255,255,0);
   box-sizing          : border-box;
   display             : inline-flex;
   flex-direction      : row;
-  height              : 13px;
-  justify-content     : flex-start;
-  left                : 1407px;
+  height              : 19px;
+  justify-content     : flex-end;
+  left                : 1325px;
+  min-width           : 19px;
+  padding             : 3.0px;
   position            : absolute;
-  top                 : 83px;
+  top                 : 79px;
   transform           : rotate(0deg);
   width               : auto;
 }
 .winkelcasestudy .shape-4TdBni {
   background-color    : rgba(255,255,255,0);
   flex-shrink         : 0;
-  height              : 9px;
+  height              : 8px;
   margin-top          : 1px;
   position            : relative;
   transform           : rotate(0deg);
@@ -482,11 +442,11 @@
 .winkelcasestudy .shape-j1ABPL {
   background-color    : rgba(255,255,255,0);
   flex-shrink         : 0;
-  height              : 9px;
-  margin-left         : 2px;
+  height              : 8px;
+  margin-left         : 1px;
   position            : relative;
   transform           : rotate(0deg);
-  width               : 9px;
+  width               : 8px;
 }
 .winkelcasestudy .shape-4MBPk0 {
   background-color    : rgba(255,255,255,0);
@@ -496,338 +456,127 @@
   transform           : rotate(0deg);
   width               : 3px;
 }
-.winkelcasestudy .github-Zvnsqx {
-  background-color    : rgba(255,255,255,0);
-  height              : 24px;
-  left                : 1368px;
-  position            : absolute;
-  top                 : 77px;
-  transform           : rotate(0deg);
-  width               : 25px;
-}
-.winkelcasestudy .basketball-c6JHhS {
-  background-color    : rgba(255,255,255,0);
-  height              : 24px;
-  left                : 1435px;
-  position            : absolute;
-  top                 : 77px;
-  transform           : rotate(0deg);
-  width               : 24px;
-}
 .winkelcasestudy .behance-network-GUVH65 {
-  align-items         : flex-start;
+  align-items         : center;
   background-color    : rgba(255,255,255,0);
   box-sizing          : border-box;
   display             : inline-flex;
   flex-direction      : row;
-  height              : 10px;
+  height              : 19px;
   justify-content     : flex-start;
-  left                : 1513px;
+  left                : 1375px;
+  padding             : 0 3.0px;
   position            : absolute;
-  top                 : 84px;
+  top                 : 79px;
   transform           : rotate(0deg);
   width               : auto;
 }
 .winkelcasestudy .shape-mAcloa {
   background-color    : rgba(255,255,255,0);
   flex-shrink         : 0;
-  height              : 10px;
+  height              : 8px;
+  margin-bottom       : 1.0px;
   position            : relative;
   transform           : rotate(0deg);
-  width               : 8px;
+  width               : 6px;
 }
 .winkelcasestudy .shape-SmayfO {
   background-color    : rgba(255,255,255,0);
   flex-shrink         : 0;
-  height              : 8px;
+  height              : 6px;
   margin-top          : 1px;
   position            : relative;
   transform           : rotate(0deg);
-  width               : 7px;
+  width               : 6px;
 }
 .winkelcasestudy .path-ZDjw1f {
   background-color    : rgba(255,255,255,0);
   flex-shrink         : 0;
   height              : 1px;
+  margin-left         : 1.0px;
   position            : relative;
   transform           : rotate(0deg);
-  width               : 5px;
+  width               : 4px;
 }
-.winkelcasestudy .fill-14-H5WrHt {
+.winkelcasestudy .basketball-c6JHhS {
   background-color    : rgba(255,255,255,0);
-  height              : 25px;
-  left                : 1544px;
+  height              : 19px;
+  left                : 1425px;
   position            : absolute;
-  top                 : 76px;
+  top                 : 79px;
   transform           : rotate(0deg);
-  width               : 12px;
+  width               : 19px;
 }
-.winkelcasestudy .email-iHZK91 {
+.winkelcasestudy .facebook-CPTJA1 {
+  background-color    : rgba(255,255,255,0);
+  height              : 19px;
+  left                : 1475px;
+  position            : absolute;
+  top                 : 79px;
+  transform           : rotate(0deg);
+  width               : 19px;
+}
+.winkelcasestudy .communications-o5FPhu {
   background-color    : rgba(255,255,255,0);
   height              : 17px;
-  left                : 1473px;
+  left                : 1525px;
   position            : absolute;
-  top                 : 81px;
+  top                 : 80px;
   transform           : rotate(0deg);
-  width               : 26px;
+  width               : 23px;
 }
-.winkelcasestudy .fill-10-xn4zYI {
-  background-color    : rgba(255,255,255,0);
-  height              : 13px;
-  left                : 0px;
-  position            : absolute;
-  top                 : 4px;
-  transform           : rotate(0deg);
-  width               : 26px;
-}
-.winkelcasestudy .fill-16-0Gr6ry {
-  background-color    : rgba(255,255,255,0);
-  height              : 8px;
-  left                : 0px;
-  position            : absolute;
-  top                 : 0px;
-  transform           : rotate(0deg);
-  width               : 26px;
-}
-.winkelcasestudy .stroke-19-9C24hg {
-  background-color    : rgba(255,255,255,0);
-  height              : 67px;
-  left                : 76px;
-  position            : absolute;
-  top                 : 162px;
-  transform           : rotate(0deg);
-  width               : 49px;
-}
-.winkelcasestudy .fill-21-efstU8 {
-  background-color    : rgba(255,255,255,0);
-  height              : 30px;
-  left                : 87px;
-  position            : absolute;
-  top                 : 183px;
-  transform           : rotate(0deg);
-  width               : 24px;
-}
-.winkelcasestudy .stroke-23-exkwj4 {
-  background-color    : rgba(255,255,255,0);
-  height              : 32px;
-  left                : 86px;
-  position            : absolute;
-  top                 : 182px;
-  transform           : rotate(0deg);
-  width               : 26px;
-}
-.winkelcasestudy .fill-25-AFePBF {
-  background-color    : rgba(255,255,255,0);
-  height              : 12px;
-  left                : 89px;
-  position            : absolute;
-  top                 : 185px;
-  transform           : rotate(0deg);
-  width               : 13px;
-}
-.winkelcasestudy .fill-27-xexpVx {
-  background-color    : rgba(255,255,255,0);
-  height              : 79px;
-  left                : 174px;
-  position            : absolute;
-  top                 : 116px;
-  transform           : rotate(0deg);
-  width               : 58px;
-}
-.winkelcasestudy .fill-29-XRMzB5 {
-  background-color    : rgba(255,255,255,0);
-  height              : 108px;
-  left                : 171px;
-  position            : absolute;
-  top                 : 275px;
-  transform           : rotate(0deg);
-  width               : 79px;
-}
-.winkelcasestudy .fill-31-BAksqk {
-  background-color    : rgba(255,255,255,0);
-  height              : 12px;
-  left                : 241px;
-  position            : absolute;
-  top                 : 254px;
-  transform           : rotate(0deg);
-  width               : 12px;
-}
-.winkelcasestudy .fill-33-jwfFw0 {
-  background-color    : rgba(255,255,255,0);
-  height              : 43px;
-  left                : 92px;
-  position            : absolute;
-  top                 : 127px;
-  transform           : rotate(0deg);
-  width               : 51px;
-}
-.winkelcasestudy .fill-35-LaVaOt {
-  background-color    : rgba(255,255,255,0);
-  height              : 27px;
-  left                : 190px;
-  position            : absolute;
-  top                 : 186px;
-  transform           : rotate(0deg);
-  width               : 45px;
-}
-.winkelcasestudy .stroke-37-ldgrkV {
-  background-color    : rgba(255,255,255,0);
-  height              : 27px;
-  left                : 190px;
-  position            : absolute;
-  top                 : 185px;
-  transform           : rotate(0deg);
-  width               : 46px;
-}
-.winkelcasestudy .fill-39-zslSic {
-  background-color    : rgba(255,255,255,0);
-  height              : 119px;
-  left                : 26px;
-  position            : absolute;
-  top                 : 278px;
-  transform           : rotate(0deg);
-  width               : 146px;
-}
-.winkelcasestudy .stroke-41-H52Qaf {
-  background-color    : rgba(255,255,255,0);
-  height              : 121px;
-  left                : 25px;
-  position            : absolute;
-  top                 : 277px;
-  transform           : rotate(0deg);
-  width               : 148px;
-}
-.winkelcasestudy .fill-43-zVtaub {
-  background-color    : rgba(255,255,255,0);
-  height              : 30px;
-  left                : 42px;
-  position            : absolute;
-  top                 : 365px;
-  transform           : rotate(0deg);
-  width               : 72px;
-}
-.winkelcasestudy .winkel-9JsyyZ {
-  background-color    : rgba(255,255,255,0);
-  color               : rgba(255,0,30,1.0);
-  font-family         : Just Me Again Down Here, Helvetica, Arial, serif;
-  font-size           : 100.0px;
-  font-style          : normal;
-  font-weight         : 400;
-  height              : auto;
-  left                : 818px;
-  letter-spacing      : -2.41px;
-  line-height         : 150.0px;
-  position            : absolute;
-  text-align          : center;
-  top                 : 675px;
-  transform           : rotate(0deg);
-  width               : 244px;
-}
-.winkelcasestudy .a-meal-prep-and-groc-crzpxR {
-  background-color    : rgba(255,255,255,0);
-  color               : rgba(207,198,199,1.0);
-  font-family         : Biryani, Helvetica, Arial, serif;
-  font-size           : 60.0px;
-  font-style          : normal;
-  font-weight         : 700;
-  height              : auto;
-  left                : 358px;
-  letter-spacing      : -1.45px;
-  line-height         : 106.0px;
-  position            : absolute;
-  text-align          : center;
-  top                 : 882px;
-  transform           : rotate(0deg);
-  width               : 1191px;
-}
-.winkelcasestudy .home-pSSosI {
-  background-color    : rgba(255,255,255,0);
-  height              : 837px;
-  left                : 450px;
-  position            : absolute;
-  top                 : 949px;
-  transform           : rotate(0deg);
-  width               : 1488px;
-}
-.winkelcasestudy .thank-you-RmVVVF {
-  background-color    : rgba(255,255,255,0);
-  height              : 636px;
-  left                : 0px;
-  position            : absolute;
-  top                 : 1045px;
-  transform           : rotate(0deg);
-  width               : 1130px;
-}
-.winkelcasestudy .screen-shot-2020-05-04-at-1-17-28-am-Sw4XJQ {
-  align-self          : center;
-  background-color    : rgba(255,255,255,0);
-  flex-shrink         : 0;
-  height              : 808px;
-  margin-right        : 47.0px;
-  margin-top          : 65px;
-  position            : relative;
-  transform           : rotate(0deg);
-  width               : 1175px;
-}
-.winkelcasestudy .screen-shot-2020-05-04-at-2-05-07-am-L53zuY {
-  background-color    : rgba(255,255,255,0);
-  height              : 861px;
-  left                : 282px;
-  position            : absolute;
-  top                 : 2018px;
-  transform           : rotate(0deg);
-  width               : 1203px;
-}
-.winkelcasestudy .rustic-modern-2x-FRiMle {
-  background-color    : rgba(255,255,255,0);
-  height              : 482px;
-  left                : 57px;
-  position            : absolute;
-  top                 : 1280px;
-  transform           : rotate(0deg);
-  width               : 626px;
-}
-.winkelcasestudy .delicate-vibrant-and-friendly-2x-2EuuE7 {
-  background-color    : rgba(255,255,255,0);
-  height              : 578px;
-  left                : 43px;
-  position            : absolute;
-  top                 : 480px;
-  transform           : rotate(0deg);
-  width               : 515px;
-}
-.winkelcasestudy .style-tile-2-Ten4o7 {
-  background-color    : rgba(255,255,255,0);
-  height              : 482px;
-  left                : 706px;
-  position            : absolute;
-  top                 : 1280px;
-  transform           : rotate(0deg);
-  width               : 682px;
-}
-.winkelcasestudy .style-tile-1-inxiGu {
-  background-color    : rgba(255,255,255,0);
-  height              : 578px;
-  left                : 582px;
-  position            : absolute;
-  top                 : 480px;
-  transform           : rotate(0deg);
-  width               : 817px;
-}
-.winkelcasestudy .design-directions-copy-C5oya3 {
+.winkelcasestudy .in-this-modern-age-CxSlzV {
   background-color    : rgba(255,255,255,0);
   color               : var(--auto-palette-color-1);
   height              : auto;
   left                : 65px;
   position            : absolute;
-  text-align          : center;
-  top                 : 61px;
+  text-align          : left;
+  top                 : 332px;
   transform           : rotate(0deg);
-  width               : auto;
+  width               : 1266px;
+}
+.winkelcasestudy .iterating-from-my-pr-tpwrgL {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-1);
+  height              : auto;
+  left                : 225px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 1616px;
+  transform           : rotate(0deg);
+  width               : 1266px;
+}
+.winkelcasestudy .mock-profile-j0QXzw {
+  background-color    : rgba(255,255,255,0);
+  height              : 511px;
+  left                : 858px;
+  position            : absolute;
+  top                 : 205px;
+  transform           : rotate(0deg);
+  width               : 908px;
+}
+.winkelcasestudy .fill-13-iUfPt2 {
+  background-color    : rgba(255,255,255,0);
+  height              : 20px;
+  left                : 158px;
+  position            : absolute;
+  top                 : 227px;
+  transform           : rotate(0deg);
+  width               : 63px;
+}
+.winkelcasestudy .stroke-15-A18xxz {
+  background-color    : rgba(255,255,255,0);
+  height              : 20px;
+  left                : 158px;
+  position            : absolute;
+  top                 : 226px;
+  transform           : rotate(0deg);
+  width               : 64px;
 }
 .winkelcasestudy .wireframes-km57kU {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--auto-palette-color-2);
   flex-shrink         : 0;
   height              : auto;
   margin-left         : 63.0px;
@@ -852,7 +601,7 @@
 }
 .winkelcasestudy .this-process-let-me-QXgKSt {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--auto-palette-color-2);
   height              : auto;
   left                : 13px;
   position            : absolute;
@@ -862,8 +611,8 @@
   width               : 1266px;
 }
 .winkelcasestudy .rectangle-Aw9gwN {
-  background-color    : var(--auto-palette-color-10);
-  border-color        : var(--auto-palette-color-9);
+  background-color    : rgba(215,215,215,1.0);
+  border-color        : rgba(150,150,150,1.0);
   border-style        : solid;
   border-width        : 1.0px;
   height              : 718px;
@@ -995,7 +744,7 @@
   width               : 1440.0px;
 }
 .winkelcasestudy .rectangle-copy-VTzHzQ {
-  background-color    : var(--auto-palette-color-8);
+  background-color    : var(--auto-palette-color-3);
   height              : 744px;
   left                : 0px;
   position            : absolute;
@@ -1004,8 +753,8 @@
   width               : 1443px;
 }
 .winkelcasestudy .rectangle-copy-2-Fd7xyY {
-  background-color    : var(--auto-palette-color-8);
-  border-color        : var(--auto-palette-color-9);
+  background-color    : var(--auto-palette-color-3);
+  border-color        : rgba(150,150,150,1.0);
   border-style        : solid;
   border-width        : 1.0px;
   height              : 1671px;
@@ -1015,18 +764,9 @@
   transform           : rotate(0deg);
   width               : 1445px;
 }
-.winkelcasestudy .rectangle-copy-3-gDPhIw {
-  background-color    : var(--auto-palette-color-8);
-  height              : 1917px;
-  left                : 0px;
-  position            : absolute;
-  top                 : 0px;
-  transform           : rotate(0deg);
-  width               : 1443px;
-}
 .winkelcasestudy .the-challenge-QBlXkT {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--auto-palette-color-2);
   flex-shrink         : 0;
   height              : auto;
   margin-left         : 63.0px;
@@ -1037,6 +777,15 @@
   text-align          : center;
   transform           : rotate(0deg);
   width               : auto;
+}
+.winkelcasestudy .rectangle-copy-3-gDPhIw {
+  background-color    : rgba(42,40,40,1.0);
+  height              : 1917px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 0px;
+  transform           : rotate(0deg);
+  width               : 1443px;
 }
 .winkelcasestudy .the-problem-statemen-bAicHA {
   background-color    : rgba(255,255,255,0);
@@ -1062,7 +811,7 @@
 }
 .winkelcasestudy .paper-prototypes-yOVFpU {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-6);
+  color               : rgba(97,95,95,1.0);
   flex-shrink         : 0;
   height              : auto;
   margin-left         : 63.0px;
@@ -1077,7 +826,7 @@
 .winkelcasestudy .for-this-project-my-stDH5U {
   align-self          : center;
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-3);
+  color               : var(--auto-palette-color-2);
   flex-shrink         : 0;
   height              : auto;
   margin-right        : 46.0px;
@@ -1088,31 +837,9 @@
   transform           : rotate(0deg);
   width               : 1266px;
 }
-.winkelcasestudy .in-this-modern-age-CxSlzV {
-  background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
-  height              : auto;
-  left                : 65px;
-  position            : absolute;
-  text-align          : left;
-  top                 : 332px;
-  transform           : rotate(0deg);
-  width               : 1266px;
-}
-.winkelcasestudy .iterating-from-my-pr-tpwrgL {
-  background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
-  height              : auto;
-  left                : 225px;
-  position            : absolute;
-  text-align          : left;
-  top                 : 1616px;
-  transform           : rotate(0deg);
-  width               : 1266px;
-}
 .winkelcasestudy .in-order-to-brainsto-XlnaGu {
   background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-6);
+  color               : rgba(97,95,95,1.0);
   height              : auto;
   left                : 252px;
   position            : absolute;
@@ -1130,30 +857,12 @@
   transform           : rotate(0deg);
   width               : 1766px;
 }
-.winkelcasestudy .mock-cart-oS8gZI {
+.winkelcasestudy .mock-meats-xuJGPO {
   background-color    : rgba(255,255,255,0);
-  height              : 511px;
-  left                : 705px;
+  height              : 512px;
+  left                : 445px;
   position            : absolute;
-  top                 : 352px;
-  transform           : rotate(0deg);
-  width               : 907px;
-}
-.winkelcasestudy .mock-categories-RDOWxL {
-  background-color    : rgba(255,255,255,0);
-  height              : 510px;
-  left                : 299px;
-  position            : absolute;
-  top                 : 143px;
-  transform           : rotate(0deg);
-  width               : 907px;
-}
-.winkelcasestudy .mock-chicken-PV2l3n {
-  background-color    : rgba(255,255,255,0);
-  height              : 510px;
-  left                : 404px;
-  position            : absolute;
-  top                 : 653px;
+  top                 : 0px;
   transform           : rotate(0deg);
   width               : 908px;
 }
@@ -1166,30 +875,12 @@
   transform           : rotate(0deg);
   width               : 908px;
 }
-.winkelcasestudy .mock-meats-xuJGPO {
-  background-color    : rgba(255,255,255,0);
-  height              : 512px;
-  left                : 445px;
-  position            : absolute;
-  top                 : 0px;
-  transform           : rotate(0deg);
-  width               : 908px;
-}
-.winkelcasestudy .mock-product-UMWfFd {
+.winkelcasestudy .mock-chicken-PV2l3n {
   background-color    : rgba(255,255,255,0);
   height              : 510px;
-  left                : 554px;
+  left                : 404px;
   position            : absolute;
-  top                 : 500px;
-  transform           : rotate(0deg);
-  width               : 908px;
-}
-.winkelcasestudy .mock-profile-j0QXzw {
-  background-color    : rgba(255,255,255,0);
-  height              : 511px;
-  left                : 858px;
-  position            : absolute;
-  top                 : 205px;
+  top                 : 653px;
   transform           : rotate(0deg);
   width               : 908px;
 }
@@ -1203,13 +894,60 @@
   width               : 908px;
 }
 .winkelcasestudy .rectangle-53xfC1 {
-  background-color    : var(--auto-palette-color-8);
+  background-color    : var(--auto-palette-color-3);
   height              : 2181px;
   left                : 217px;
   position            : absolute;
   top                 : 0px;
   transform           : rotate(0deg);
   width               : 1443px;
+}
+.winkelcasestudy .copyright-251-2020-shi-Xm8UXQ {
+  align-self          : center;
+  background-color    : rgba(255,255,255,0);
+  color               : rgba(97,97,97,1.0);
+  flex-shrink         : 0;
+  font-family         : Biryani, Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  font-style          : normal;
+  font-weight         : 700;
+  height              : auto;
+  letter-spacing      : 4.14px;
+  line-height         : 64.0px;
+  margin-left         : 71.14px;
+  margin-top          : 224px;
+  min-height          : 64px;
+  min-width           : 699px;
+  position            : relative;
+  text-align          : left;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.winkelcasestudy .by-2025-mobile-shop-OcxYyz {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-1);
+  font-family         : Biryani, Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  font-style          : normal;
+  font-weight         : 700;
+  height              : auto;
+  left                : 359px;
+  letter-spacing      : 4.14px;
+  line-height         : 64.0px;
+  position            : absolute;
+  text-align          : center;
+  top                 : 1843px;
+  transform           : rotate(0deg);
+  width               : 1159px;
+}
+.winkelcasestudy .group-2-NkZa17 {
+  background-color    : rgba(255,255,255,0);
+  height              : 423px;
+  left                : 838px;
+  position            : absolute;
+  top                 : 238px;
+  transform           : rotate(0deg);
+  width               : 452px;
 }
 .winkelcasestudy .logo-0l3MxP {
   background-color    : rgba(255,255,255,0);
@@ -1231,49 +969,20 @@
 }
 .winkelcasestudy .sh-uvWKHH {
   background-color    : rgba(255,255,255,0);
-  color               : rgba(43,41,41,1.0);
+  color               : var(--auto-palette-color-3);
+  font-family         : Fjalla One, Helvetica, Arial, serif;
+  font-size           : 208.1px;
+  font-style          : normal;
+  font-weight         : 400;
   height              : auto;
   left                : 0px;
+  letter-spacing      : 0.00px;
+  line-height         : 262.0px;
   position            : absolute;
   text-align          : left;
   top                 : 0px;
   transform           : rotate(0deg);
   width               : 211px;
-}
-.winkelcasestudy .copyright-251-2020-shi-Xm8UXQ {
-  align-self          : center;
-  background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-2);
-  flex-shrink         : 0;
-  height              : auto;
-  margin-left         : 71.14px;
-  margin-top          : 224px;
-  min-height          : 64px;
-  min-width           : 699px;
-  position            : relative;
-  text-align          : left;
-  transform           : rotate(0deg);
-  width               : auto;
-}
-.winkelcasestudy .by-2025-mobile-shop-OcxYyz {
-  background-color    : rgba(255,255,255,0);
-  color               : var(--auto-palette-color-1);
-  height              : auto;
-  left                : 359px;
-  position            : absolute;
-  text-align          : center;
-  top                 : 1843px;
-  transform           : rotate(0deg);
-  width               : 1159px;
-}
-.winkelcasestudy .group-2-NkZa17 {
-  background-color    : rgba(255,255,255,0);
-  height              : 423px;
-  left                : 838px;
-  position            : absolute;
-  top                 : 238px;
-  transform           : rotate(0deg);
-  width               : 452px;
 }
 .winkelcasestudy .fill-1-59HVJ4 {
   background-color    : rgba(255,255,255,0);
@@ -1329,23 +1038,23 @@
   transform           : rotate(0deg);
   width               : 51px;
 }
-.winkelcasestudy .fill-13-iUfPt2 {
+.winkelcasestudy .mock-cart-oS8gZI {
   background-color    : rgba(255,255,255,0);
-  height              : 20px;
-  left                : 158px;
+  height              : 511px;
+  left                : 705px;
   position            : absolute;
-  top                 : 227px;
+  top                 : 352px;
   transform           : rotate(0deg);
-  width               : 63px;
+  width               : 907px;
 }
-.winkelcasestudy .stroke-15-A18xxz {
+.winkelcasestudy .mock-categories-RDOWxL {
   background-color    : rgba(255,255,255,0);
-  height              : 20px;
-  left                : 158px;
+  height              : 510px;
+  left                : 299px;
   position            : absolute;
-  top                 : 226px;
+  top                 : 143px;
   transform           : rotate(0deg);
-  width               : 64px;
+  width               : 907px;
 }
 .winkelcasestudy .fill-17-wEj0Ab {
   background-color    : rgba(255,255,255,0);
@@ -1355,6 +1064,251 @@
   top                 : 163px;
   transform           : rotate(0deg);
   width               : 47px;
+}
+.winkelcasestudy .mock-product-UMWfFd {
+  background-color    : rgba(255,255,255,0);
+  height              : 510px;
+  left                : 554px;
+  position            : absolute;
+  top                 : 500px;
+  transform           : rotate(0deg);
+  width               : 908px;
+}
+.winkelcasestudy .fill-21-efstU8 {
+  background-color    : rgba(255,255,255,0);
+  height              : 30px;
+  left                : 87px;
+  position            : absolute;
+  top                 : 183px;
+  transform           : rotate(0deg);
+  width               : 24px;
+}
+.winkelcasestudy .stroke-19-9C24hg {
+  background-color    : rgba(255,255,255,0);
+  height              : 67px;
+  left                : 76px;
+  position            : absolute;
+  top                 : 162px;
+  transform           : rotate(0deg);
+  width               : 49px;
+}
+.winkelcasestudy .fill-25-AFePBF {
+  background-color    : rgba(255,255,255,0);
+  height              : 12px;
+  left                : 89px;
+  position            : absolute;
+  top                 : 185px;
+  transform           : rotate(0deg);
+  width               : 13px;
+}
+.winkelcasestudy .stroke-23-exkwj4 {
+  background-color    : rgba(255,255,255,0);
+  height              : 32px;
+  left                : 86px;
+  position            : absolute;
+  top                 : 182px;
+  transform           : rotate(0deg);
+  width               : 26px;
+}
+.winkelcasestudy .fill-29-XRMzB5 {
+  background-color    : rgba(255,255,255,0);
+  height              : 108px;
+  left                : 171px;
+  position            : absolute;
+  top                 : 275px;
+  transform           : rotate(0deg);
+  width               : 79px;
+}
+.winkelcasestudy .fill-27-xexpVx {
+  background-color    : rgba(255,255,255,0);
+  height              : 79px;
+  left                : 174px;
+  position            : absolute;
+  top                 : 116px;
+  transform           : rotate(0deg);
+  width               : 58px;
+}
+.winkelcasestudy .fill-31-BAksqk {
+  background-color    : rgba(255,255,255,0);
+  height              : 12px;
+  left                : 241px;
+  position            : absolute;
+  top                 : 254px;
+  transform           : rotate(0deg);
+  width               : 12px;
+}
+.winkelcasestudy .stroke-37-ldgrkV {
+  background-color    : rgba(255,255,255,0);
+  height              : 27px;
+  left                : 190px;
+  position            : absolute;
+  top                 : 185px;
+  transform           : rotate(0deg);
+  width               : 46px;
+}
+.winkelcasestudy .fill-35-LaVaOt {
+  background-color    : rgba(255,255,255,0);
+  height              : 27px;
+  left                : 190px;
+  position            : absolute;
+  top                 : 186px;
+  transform           : rotate(0deg);
+  width               : 45px;
+}
+.winkelcasestudy .fill-33-jwfFw0 {
+  background-color    : rgba(255,255,255,0);
+  height              : 43px;
+  left                : 92px;
+  position            : absolute;
+  top                 : 127px;
+  transform           : rotate(0deg);
+  width               : 51px;
+}
+.winkelcasestudy .stroke-41-H52Qaf {
+  background-color    : rgba(255,255,255,0);
+  height              : 121px;
+  left                : 25px;
+  position            : absolute;
+  top                 : 277px;
+  transform           : rotate(0deg);
+  width               : 148px;
+}
+.winkelcasestudy .fill-39-zslSic {
+  background-color    : rgba(255,255,255,0);
+  height              : 119px;
+  left                : 26px;
+  position            : absolute;
+  top                 : 278px;
+  transform           : rotate(0deg);
+  width               : 146px;
+}
+.winkelcasestudy .winkel-9JsyyZ {
+  background-color    : rgba(255,255,255,0);
+  color               : rgba(255,0,30,1.0);
+  font-family         : Just Me Again Down Here, Helvetica, Arial, serif;
+  font-size           : 100.0px;
+  font-style          : normal;
+  font-weight         : 400;
+  height              : auto;
+  left                : 818px;
+  letter-spacing      : -2.41px;
+  line-height         : 150.0px;
+  position            : absolute;
+  text-align          : center;
+  top                 : 675px;
+  transform           : rotate(0deg);
+  width               : 244px;
+}
+.winkelcasestudy .fill-43-zVtaub {
+  background-color    : rgba(255,255,255,0);
+  height              : 30px;
+  left                : 42px;
+  position            : absolute;
+  top                 : 365px;
+  transform           : rotate(0deg);
+  width               : 72px;
+}
+.winkelcasestudy .style-tile-2-Ten4o7 {
+  background-color    : rgba(255,255,255,0);
+  height              : 482px;
+  left                : 706px;
+  position            : absolute;
+  top                 : 1280px;
+  transform           : rotate(0deg);
+  width               : 682px;
+}
+.winkelcasestudy .thank-you-RmVVVF {
+  background-color    : rgba(255,255,255,0);
+  height              : 636px;
+  left                : 0px;
+  position            : absolute;
+  top                 : 1045px;
+  transform           : rotate(0deg);
+  width               : 1130px;
+}
+.winkelcasestudy .screen-shot-2020-05-04-at-2-05-07-am-L53zuY {
+  background-color    : rgba(255,255,255,0);
+  height              : 861px;
+  left                : 282px;
+  position            : absolute;
+  top                 : 2018px;
+  transform           : rotate(0deg);
+  width               : 1203px;
+}
+.winkelcasestudy .design-directions-copy-C5oya3 {
+  background-color    : rgba(255,255,255,0);
+  color               : var(--auto-palette-color-1);
+  height              : auto;
+  left                : 65px;
+  position            : absolute;
+  text-align          : center;
+  top                 : 61px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.winkelcasestudy .home-pSSosI {
+  background-color    : rgba(255,255,255,0);
+  height              : 837px;
+  left                : 450px;
+  position            : absolute;
+  top                 : 949px;
+  transform           : rotate(0deg);
+  width               : 1488px;
+}
+.winkelcasestudy .a-meal-prep-and-groc-crzpxR {
+  background-color    : rgba(255,255,255,0);
+  color               : rgba(207,198,199,1.0);
+  font-family         : Biryani, Helvetica, Arial, serif;
+  font-size           : 60.0px;
+  font-style          : normal;
+  font-weight         : 700;
+  height              : auto;
+  left                : 358px;
+  letter-spacing      : -1.45px;
+  line-height         : 106.0px;
+  position            : absolute;
+  text-align          : center;
+  top                 : 882px;
+  transform           : rotate(0deg);
+  width               : 1191px;
+}
+.winkelcasestudy .screen-shot-2020-05-04-at-1-17-28-am-Sw4XJQ {
+  align-self          : center;
+  background-color    : rgba(255,255,255,0);
+  flex-shrink         : 0;
+  height              : 808px;
+  margin-right        : 47.0px;
+  margin-top          : 65px;
+  position            : relative;
+  transform           : rotate(0deg);
+  width               : 1175px;
+}
+.winkelcasestudy .style-tile-1-inxiGu {
+  background-color    : rgba(255,255,255,0);
+  height              : 578px;
+  left                : 582px;
+  position            : absolute;
+  top                 : 480px;
+  transform           : rotate(0deg);
+  width               : 817px;
+}
+.winkelcasestudy .delicate-vibrant-and-friendly-2x-2EuuE7 {
+  background-color    : rgba(255,255,255,0);
+  height              : 578px;
+  left                : 43px;
+  position            : absolute;
+  top                 : 480px;
+  transform           : rotate(0deg);
+  width               : 515px;
+}
+.winkelcasestudy .rustic-modern-2x-FRiMle {
+  background-color    : rgba(255,255,255,0);
+  height              : 482px;
+  left                : 57px;
+  position            : absolute;
+  top                 : 1280px;
+  transform           : rotate(0deg);
+  width               : 626px;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
