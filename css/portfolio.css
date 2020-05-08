@@ -202,6 +202,11 @@ a:hover
   top                 : 394px;
   transform           : rotate(0deg);
   width               : auto;
+  transition: background-color 2s ease;
+}
+.portfolio .case-study-2-cta-TUabxV:hover {
+  background-color: white;
+
 }
 .portfolio .group-5-nuHAmH {
   align-items         : center;
@@ -260,6 +265,23 @@ a:hover
   top                 : 576px;
   transform           : rotate(0deg);
   width               : auto;
+  transition:  background-color 2s ease;
+}
+.portfolio .case-study-3-cta-SWYDia:hover {
+  align-items         : flex-start;
+  background-color    : white;
+  box-sizing          : border-box;
+  display             : inline-flex;
+  flex-direction      : row;
+  height              : 43px;
+  justify-content     : flex-start;
+  left                : 98px;
+  position            : absolute;
+  top                 : 576px;
+  transform           : rotate(0deg);
+  width               : auto;
+
+}
 }
 .portfolio .case-study-3-cta-SWYDia:hover {
   align-items         : flex-start;
@@ -309,6 +331,9 @@ a:hover
   text-align          : left;
   transform           : rotate(0deg);
   width               : 187px;
+}
+.portfolio .view-case-study-Dwitxu:hover a{
+  color: black;
 }
 .portfolio .group-SHpdVl {
   align-items         : center;
@@ -2037,6 +2062,9 @@ a:hover
 }
 .anima-flexbox-container a {
   line-height         : 0;
+}
+.anima-flexbox-container a:hover {
+  color: #45484B;
 }
 .anima-full-width-a {
   width               : 100%;
