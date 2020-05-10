@@ -135,7 +135,7 @@ a:hover
   flex-direction      : column;
   height              : auto;
   justify-content     : flex-start;
-  min-height          : 1024px;
+  min-height          : 751px;
   overflow            : hidden;
   padding             : 0 32.0px;
   position            : relative;
@@ -373,7 +373,7 @@ a:hover
   position            : relative;
   width               : 1375px;
 }
-.aboutme .rectangle-copy-VTzHzQ {
+ .aboutme .rectangle-copy-VTzHzQ {
   background-color    : rgba(255,255,255,0);
   height              : 3px;
   left                : 49px;
@@ -381,6 +381,11 @@ a:hover
   top                 : 711px;
   transform           : rotate(0deg);
   width               : 240px;
+  transition: height .25s;
+}
+.aboutme .rectangle-copy-VTzHzQ:hover {
+  height: 8px;
+  cursor: pointer;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
